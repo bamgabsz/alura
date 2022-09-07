@@ -6,16 +6,23 @@
 
     <div class="container">
         <h1 class="page-title">
-            Conversor de moedas
+            Conversor
         </h1>
         <p class="page-subtitle">
-            Descubra os valores em Real R$
+            Descubra os valores que você precisa!
         </p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
             class="page-logo" alt=""><br><br>
+
         <label for="moeda">Insira o valor</label><br>
+
         <input type="number" id="valor" size="2" /><br>
-        <button type="submit" onclick="Converter()">Converter</button>
+
+        <button id="dolar" type="submit" onclick="Converter()">Dolar para Real</button>
+        <button id="euro" type="submit" onclick="Euro()">Euro para Real</button>
+        <button id="celsiusKelvins" type="submit" onclick="Kelvins()">Celsius para Kelvins</button>
+        <button id="km-anosLuz" type="submit" onclick="AnosLuz()">Km para Anos Luz</button>
+
         <h2 id="valorConvertido"></h2>
     </div>
     <a href="https://alura.com.br/" target="_blank">
