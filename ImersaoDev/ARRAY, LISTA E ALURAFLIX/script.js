@@ -1,0 +1,5 @@
+var listaFilmes = ["https://th.bing.com/th/id/R.911ea113d6ceb0d1bbae695d675ef582?rik=Z6lVzEHwTVCvUA&riu=http%3a%2f%2fvortexcultural.com.br%2fimages%2f2011%2f11%2fGigantes-de-A%c3%a7o-1.jpg&ehk=MTo46f7%2bLLDazEu15AzdbAoyI0z%2fEwjDeGr5OjciEIY%3d&risl=&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.bfd29cd755c3edd511bdb3f0b0430029?rik=TfVeCZN3JfordQ&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fpictures%2f15%2f07%2f06%2f21%2f57%2f371290.jpg&ehk=KJcPAPr85y2Inq7dy0PMfqFmXkUnGOUJEj3zzurhcxk%3d&risl=&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.b8e1d00a88132bdff18aeaf20fafc1e9?rik=olWa0OezuLVDUg&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2f4HHKY64gDioW2zKNZxMxj7LsETx.jpg&ehk=6mPMXRfn7CUKFNo5VGmxYtMgwvTkzdaIdkonCK48hNc%3d&risl=&pid=ImgRaw&r=0"]
+
+for(var i = 0; i < listaFilmes.length; i++) {
+    document.write("<img src=" + listaFilmes[i] + ">")
+}
